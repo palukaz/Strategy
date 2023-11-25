@@ -25,7 +25,7 @@ namespace Strategy
             if (_weapon is null)
             {
                 Console.WriteLine("У вас нет оружия!");
-                Events.PlayerDeath(this, enemy);
+                Events.PlayerKilled(this, enemy);
                 return;
             }
             Console.WriteLine($"{_name} готовится нанести удар");

@@ -27,7 +27,7 @@ namespace Strategy
                 {
                     Console.WriteLine($"{_name} нанёс игроку {_damage} урона! Осталось {player._hp} здоровья!");
                 }
-                else Events.PlayerDeath(player,this);
+                else Events.PlayerKilled(player,this);
             }
             else Console.WriteLine($"{_name} промахнулся!");
         }

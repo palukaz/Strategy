@@ -18,7 +18,7 @@ namespace Strategy
             Console.WriteLine($"{player._name} входит в опасный мир...");
             Console.ReadKey(true);
         }
-        public static void Smthng()
+        private static void Smthng()
         {
 
         }
@@ -28,7 +28,7 @@ namespace Strategy
             Console.ReadKey(true);
             player.Duel(enemy);
         }
-        public static void PlayerDeath(Player player,Enemy enemy)
+        public static void PlayerKilled(Player player,Enemy enemy)
         {
             Console.WriteLine($"{player._name} погиб... Его убил {enemy._name}");
             Console.ReadKey(true);
