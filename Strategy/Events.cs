@@ -18,6 +18,10 @@ namespace Strategy
             Console.WriteLine($"{player._name} входит в опасный мир...");
             Console.ReadKey(true);
         }
+        public static void Smthng()
+        {
+
+        }
         public static void EnemyDuel(Player player,Enemy enemy)
         {
             Console.WriteLine($"На {player._name} нападает {enemy._name} и вызывает его на дуэль!");
