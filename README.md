@@ -1,0 +1,2 @@
+# Strategy
+Изучаю паттерн Strategy
